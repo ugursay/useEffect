@@ -28,7 +28,7 @@ function App() {
         {firstName} <br></br> {lastName}
       </div>
       <div>
-        <button onClick={isimDegistir}>Ad Değiştir</button>
+        <button onClick={isimDegistir}>Ad değiştir</button>
       </div>
       <div>
         <button

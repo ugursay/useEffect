@@ -10,11 +10,11 @@ function App() {
     console.log("Her zaman çalışır.");
   });
   useEffect(() => {
-    console.log("İlk Render edildiğinde çalışır.");
+    console.log("İlk render edildiğinde çalışır.");
   }, []);
   useEffect(() => {
     console.log(
-      "İlk Render edildiğinde ve Firstname ya da Lastname değiştiğinde çalışır."
+      "İlk render edildiğinde ve Firstname ya da Lastname değiştiğinde çalışır."
     );
   }, [firstName, lastName]);
 
